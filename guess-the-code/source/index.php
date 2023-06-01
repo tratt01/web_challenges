@@ -35,7 +35,7 @@ else
 }
 
 #try to read flag.php	
-Class whatthefuck{
+Class person{
 	public function __toString()
 	{
 		return highlight_file($this->source,true);
@@ -246,7 +246,7 @@ Class whatthefuck{
 
 
 <p hidden>#try to read flag.php	
-Class whatthefuck{
+Class person{
 	public function __toString()
 	{
 		return highlight_file($this->source,true);

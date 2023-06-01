@@ -1,2 +1,23 @@
 [Thu Jun 01 04:13:19.596343 2023] [mpm_prefork:notice] [pid 29] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
 [Thu Jun 01 04:13:19.596430 2023] [core:notice] [pid 29] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jun 01 17:14:37.451862 2023] [:error] [pid 33] [client 172.21.0.1:52276] PHP Catchable fatal error:  Object of class __PHP_Incomplete_Class could not be converted to string in /var/www/html/index.php on line 31
+[Thu Jun 01 17:14:41.460730 2023] [:error] [pid 34] [client 172.21.0.1:52286] PHP Catchable fatal error:  Object of class __PHP_Incomplete_Class could not be converted to string in /var/www/html/index.php on line 31
+[Thu Jun 01 17:15:25.524399 2023] [:error] [pid 35] [client 172.21.0.1:52290] PHP Catchable fatal error:  Object of class __PHP_Incomplete_Class could not be converted to string in /var/www/html/index.php on line 31
+[Thu Jun 01 17:17:49.211534 2023] [mpm_prefork:notice] [pid 29] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jun 01 17:17:49.211600 2023] [core:notice] [pid 29] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jun 01 17:17:54.529013 2023] [:error] [pid 32] [client 172.21.0.1:52300] PHP Catchable fatal error:  Object of class __PHP_Incomplete_Class could not be converted to string in /var/www/html/index.php on line 31
+[Thu Jun 01 17:17:57.168762 2023] [:error] [pid 33] [client 172.21.0.1:52304] PHP Catchable fatal error:  Object of class __PHP_Incomplete_Class could not be converted to string in /var/www/html/index.php on line 31
+[Thu Jun 01 17:17:59.263850 2023] [:error] [pid 34] [client 172.21.0.1:52308] PHP Catchable fatal error:  Object of class __PHP_Incomplete_Class could not be converted to string in /var/www/html/index.php on line 31
+[Thu Jun 01 17:18:39.544386 2023] [:error] [pid 36] [client 172.21.0.1:52320] PHP Catchable fatal error:  Object of class __PHP_Incomplete_Class could not be converted to string in /var/www/html/index.php on line 31
+[Thu Jun 01 17:18:44.197646 2023] [:error] [pid 44] [client 172.21.0.1:52322] PHP Catchable fatal error:  Object of class __PHP_Incomplete_Class could not be converted to string in /var/www/html/index.php on line 31
+[Thu Jun 01 17:18:57.113163 2023] [:error] [pid 36] [client 172.21.0.1:52338] PHP Catchable fatal error:  Object of class __PHP_Incomplete_Class could not be converted to string in /var/www/html/index.php on line 31
+[Thu Jun 01 17:19:46.455673 2023] [core:warn] [pid 31] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 01 17:19:46.457775 2023] [mpm_prefork:notice] [pid 31] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jun 01 17:19:46.457801 2023] [core:notice] [pid 31] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jun 01 17:20:17.209551 2023] [:error] [pid 36] [client 172.21.0.1:52354] PHP Notice:  unserialize(): Error at offset 26 of 56 bytes in /var/www/html/index.php on line 23
+[Thu Jun 01 17:20:17.209620 2023] [:error] [pid 36] [client 172.21.0.1:52354] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/index.php on line 30
+[Thu Jun 01 17:20:19.711829 2023] [:error] [pid 36] [client 172.21.0.1:52354] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/index.php on line 30
+[Thu Jun 01 17:20:28.914047 2023] [:error] [pid 37] [client 172.21.0.1:52352] PHP Notice:  unserialize(): Error at offset 26 of 56 bytes in /var/www/html/index.php on line 23
+[Thu Jun 01 17:20:28.914130 2023] [:error] [pid 37] [client 172.21.0.1:52352] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/index.php on line 30
+[Thu Jun 01 17:24:00.853938 2023] [:error] [pid 40] [client 172.21.0.1:52362] PHP Notice:  unserialize(): Error at offset 26 of 56 bytes in /var/www/html/index.php on line 23, referer: http://127.0.0.1:10002/
+[Thu Jun 01 17:24:00.853993 2023] [:error] [pid 40] [client 172.21.0.1:52362] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/index.php on line 30, referer: http://127.0.0.1:10002/

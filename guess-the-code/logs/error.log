@@ -21,3 +21,5 @@
 [Thu Jun 01 17:20:28.914130 2023] [:error] [pid 37] [client 172.21.0.1:52352] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/index.php on line 30
 [Thu Jun 01 17:24:00.853938 2023] [:error] [pid 40] [client 172.21.0.1:52362] PHP Notice:  unserialize(): Error at offset 26 of 56 bytes in /var/www/html/index.php on line 23, referer: http://127.0.0.1:10002/
 [Thu Jun 01 17:24:00.853993 2023] [:error] [pid 40] [client 172.21.0.1:52362] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/index.php on line 30, referer: http://127.0.0.1:10002/
+[Fri Jun 02 00:32:18.099303 2023] [:error] [pid 40] [client 172.21.0.1:52414] PHP Catchable fatal error:  Object of class __PHP_Incomplete_Class could not be converted to string in /var/www/html/index.php on line 31
+[Fri Jun 02 03:01:41.199887 2023] [:error] [pid 37] [client 172.21.0.1:52584] PHP Catchable fatal error:  Object of class __PHP_Incomplete_Class could not be converted to string in /var/www/html/index.php on line 31
